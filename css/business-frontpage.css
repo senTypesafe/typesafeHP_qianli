@@ -369,6 +369,25 @@ a:hover {
         height: inherit;
         font-size: small;
     }
+
+    .dev_description_more, .bus_description_more {
+        margin-left: auto;
+    }
+
+    .footer {
+        height: initial;
+    }
+
+    .page-top {
+        bottom: 102px;
+        right: 2px;
+        padding: 6px;
+        font-size: 6px;
+    }
+
+    .carousel-inner > .item > img {
+        height: 188px;
+    }
 }
 
 .transition-timer-carousel-progress-bar {
@@ -385,6 +404,6 @@ a:hover {
     z-index: 11;
 }
 
-.mail-icon, .phone-icon , .icon-normal{
+.mail-icon, .phone-icon, .icon-normal {
     color: #0071c5;
 }
