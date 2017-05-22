@@ -414,4 +414,8 @@ a:hover {
     font-size: smaller;
 }
 
+.glyphicon.glyphicon-remove {
+    font-size: 18px;
+}
+
 

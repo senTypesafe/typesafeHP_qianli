@@ -12,6 +12,19 @@ $(function () {
     $('#business_description_more_target').css('display', 'none');
 });
 
+$(document).on('click', '.navbar-collapse.in', function (e) {
+    if ($(e.target).is('a')) {
+        $(this).collapse('hide');
+        $('#navbar-hamburger').toggleClass('hidden');
+        $('#navbar-close').toggleClass('hidden');
+    }
+});
+
+$(document).on('click', '#ChangeToggle', function (e) {
+    $('#navbar-hamburger').toggleClass('hidden');
+    $('#navbar-close').toggleClass('hidden');
+});
+
 $(window).load(function () {
     var pageTop = $('#page-top');
     scroll_disaple();
