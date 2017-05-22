@@ -1,5 +1,4 @@
 $(function () {
-    console.log("ty com js");
     $("#ty_header").load("ty_header.html", function () {
         var matchKey = window.location.pathname;
         menu_active(matchKey);

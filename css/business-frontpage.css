@@ -232,9 +232,11 @@ body {
 }
 
 .menu_active {
-    /*background-color: #33aa33;*/
-    text-decoration: none;
-    border-top: solid 3px #33aa33;
+   // background-color: #33aa33;
+   // text-decoration: none;
+   // border-top: solid 3px #33aa33;
+    font-size: large;
+    color: #efb2b2 !important;
 }
 
 .hvr-underline-from-left:active:after,
@@ -407,3 +409,9 @@ a:hover {
 .mail-icon, .phone-icon, .icon-normal {
     color: #0071c5;
 }
+
+.header-menu-font {
+    font-size: smaller;
+}
+
+
